@@ -37,8 +37,8 @@ extract features
 ```
 /home/bmc/Desktop/caffe-master/build/tools/extract_features.bin /home/bmc/Desktop/caffe-master/models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel _temp/imagenet_val.prototxt fc7 _temp/features 1 lmdb
 ```
-Cong! Now features have been extracted and stores in lmdb format in directory _temp/features
+* Cong! Now features have been extracted and stores in lmdb format in directory _temp/features
 Conclusion
 -------
-You have successfully extracted features, if you need to convert lmdb format data into .mat format.
+* You have successfully extracted features, if you need to convert lmdb format data into .mat format.
 the architecture we used for extraction is [AlexNet](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf), we extracted in layer fc7.
