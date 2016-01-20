@@ -41,5 +41,5 @@ extract features
 
 Conclusion
 ----------
-* You have successfully extracted features, if you need to convert lmdb format data into .mat format.
-the architecture we used for extraction is [AlexNet](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf), we extracted in layer fc7.
+* You have successfully extracted features, you need to convert lmdb format data into .mat format for matlab use.
+* the architecture we used for extraction is [AlexNet](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf), we extracted in layer fc7.
